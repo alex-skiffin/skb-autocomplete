@@ -14,7 +14,7 @@ namespace skb_kontur_autocomplete
         {
         }
 
-        public bool GetVariant(string input)
+        public bool GetVariant(TextWork input)
         {
             throw new NotImplementedException();
         }

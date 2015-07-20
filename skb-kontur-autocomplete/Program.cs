@@ -17,9 +17,15 @@ namespace skb_kontur_autocomplete
 
             while (true)
             {
-                var input = Console.ReadLine();
+                var input = StringUtils.ParseInputText(Console.ReadLine());
                 Console.WriteLine(complete.GetVariant(input));
             }
         }
+    }
+
+    public class TextWork
+    {
+        public string InputText { get; set; }
+        public int Count { get; set; }
     }
 }

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skb-kontur-autocomplete", "skb-kontur-autocomplete\skb-kontur-autocomplete.csproj", "{7306CFDC-4AA6-451A-AAA1-C2D8B2EA6D87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCompleteClient", "AutoCompleteClient\AutoCompleteClient.csproj", "{F8C4401F-0A69-4AD1-B00C-E8DB8C220C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCompleteServer", "AutoCompleteServer\AutoCompleteServer.csproj", "{A98493CF-E7A6-4FA3-B799-186C4E732921}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,16 @@ Global
 		{F8C4401F-0A69-4AD1-B00C-E8DB8C220C37}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F8C4401F-0A69-4AD1-B00C-E8DB8C220C37}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F8C4401F-0A69-4AD1-B00C-E8DB8C220C37}.Release|x86.ActiveCfg = Release|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A98493CF-E7A6-4FA3-B799-186C4E732921}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
